@@ -1,24 +1,20 @@
-# react-rich-mentions
+# reactjs-text-mentions
 
-![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/koala-interactive/react-rich-mentions/dev/react)
-[![Cypress.io](https://img.shields.io/badge/tested%20with-Cypress-04C38E.svg)](https://www.cypress.io/)
-![lint](https://github.com/koala-interactive/react-rich-mentions/workflows/lint/badge.svg?branch=master)
-![e2e](https://github.com/koala-interactive/react-rich-mentions/workflows/e2e/badge.svg?branch=master)
 
 React library to handle **@mentions**, **#channels**, **:smileys:** and whatever with styles.
 
 ## Getting started
 
-Install the _react-rich-mentions_ package via npm:
+Install the _reactjs-text-mentions_ package via npm:
 
 ```
-npm install react-rich-mentions --save
+npm install reactjs-text-mentions --save
 ```
 
 Or yarn:
 
 ```
-yarn add react-rich-mentions
+yarn add reactjs-text-mentions
 ```
 
 The package exports React components for rendering the mentions autocomplete and contenteditable :
@@ -29,7 +25,7 @@ import {
   RichMentionsAutocomplete,
   RichMentionsContext,
   RichMentionsProvider,
-} from 'react-rich-mentions';
+} from 'reactjs-text-mentions';
 ```
 
 - `RichMentionsProvider` - Feed it with your components and the mention configs
@@ -152,15 +148,3 @@ or
 npm install
 ```
 
-### Testing
-
-To test this project, we use cypress : https://docs.cypress.io/guides/overview/why-cypress.html
-
-```
-cd ./examples
-yarn (OR npm install)
-cd ..
-yarn cypress:headless
-```
-
-If you develop a new feature, be sure to add tests in the `cypress` folder, following documentation from the above website.

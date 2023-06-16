@@ -28,24 +28,24 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "react-text-mentions",
+  "name": "reactjs-text-mentions",
   "description": "@mentions people, or #channels, or :smileys: on contenteditable element with styles",
   "author": "hunghg255",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hunghg255/react-text-mentions.git"
+    "url": "git+https://github.com/hunghg255/reactjs-text-mentions.git"
   },
   "keywords": [
     "react",
-    "react-text-mentions",
+    "reactjs-text-mentions",
     "rich",
     "mentions"
   ],
   "bugs": {
-    "url": "https://github.com/hunghg255/react-text-mentions/issues"
+    "url": "https://github.com/hunghg255/reactjs-text-mentions/issues"
   },
-  "homepage": "https://github.com/hunghg255/react-text-mentions#readme",
-  "module": "dist/react-text-mentions.esm.js",
+  "homepage": "https://github.com/hunghg255/reactjs-text-mentions#readme",
+  "module": "dist/reactjs-text-mentions.esm.js",
   "devDependencies": {
     "@types/react": "^18.2.12",
     "@types/react-dom": "^18.2.5",
