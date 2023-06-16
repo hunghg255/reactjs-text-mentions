@@ -1,0 +1,59 @@
+{
+  "version": "0.0.1",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "engines": {
+    "node": ">=10"
+  },
+  "scripts": {
+    "start": "tsdx watch",
+    "build": "tsdx build",
+    "test": "tsdx test --passWithNoTests",
+    "lint": "tsdx lint",
+    "prepare": "tsdx build"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "tsdx lint src test"
+    }
+  },
+  "prettier": {
+    "printWidth": 80,
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
+  "name": "react-text-mentions",
+  "description": "@mentions people, or #channels, or :smileys: on contenteditable element with styles",
+  "author": "hunghg255",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hunghg255/react-text-mentions.git"
+  },
+  "keywords": [
+    "react",
+    "react-text-mentions",
+    "rich",
+    "mentions"
+  ],
+  "bugs": {
+    "url": "https://github.com/hunghg255/react-text-mentions/issues"
+  },
+  "homepage": "https://github.com/hunghg255/react-text-mentions#readme",
+  "module": "dist/react-text-mentions.esm.js",
+  "devDependencies": {
+    "@types/react": "^18.2.12",
+    "@types/react-dom": "^18.2.5",
+    "husky": "^4.2.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tsdx": "^0.14.1",
+    "tslib": "^2.0.1",
+    "typescript": "^5.1.3"
+  }
+}
